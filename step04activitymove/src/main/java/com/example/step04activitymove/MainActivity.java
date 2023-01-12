@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         //리스너 등록
         toCanada.setOnClickListener(this);
         toGerman.setOnClickListener(this);
+
     }
     //버튼을 누르면 호출되는 메소드
     @Override
