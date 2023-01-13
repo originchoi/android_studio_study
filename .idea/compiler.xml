@@ -9,6 +9,7 @@
       <module name="MyAndroid.step04activitymove" target="11" />
       <module name="MyAndroid.step05example" target="11" />
       <module name="MyAndroid.step05listview" target="11" />
+      <module name="MyAndroid.step06customadapter" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
