@@ -31,4 +31,7 @@ fun main(){
     var isRun:Boolean?=null //null 값을 허용하는 Boolean type
     isRun=true
 
+    var test:String?="hi"
+    test=null
+    println(test)
 }

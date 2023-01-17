@@ -36,4 +36,10 @@ fun main(){
     names.forEach{
         println(it)
     }
+    println("------")
+    val nums = listOf<Int>(10, 20, 30)
+    nums.forEach{
+        println(it)
+    }
+
 }

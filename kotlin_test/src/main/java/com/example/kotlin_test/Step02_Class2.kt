@@ -19,4 +19,13 @@ fun main(){
         println(it)
     }
 
+    println("--------------------------")
+    val msgs=mutableListOf<String>()
+    msgs.add("hello")
+    msgs.add("test")
+    msgs.add("bye")
+
+    msgs.forEach{
+        println(it)
+    }
 }
