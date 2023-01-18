@@ -11,6 +11,8 @@
       <module name="MyAndroid.step05listview" target="11" />
       <module name="MyAndroid.step06customadapter" target="11" />
       <module name="MyAndroid.step07fragment" target="11" />
+      <module name="MyAndroid.step07fragment2" target="11" />
+      <module name="MyAndroid.step08viewbinding" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
