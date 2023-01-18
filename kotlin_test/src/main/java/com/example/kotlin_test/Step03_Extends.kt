@@ -1,4 +1,4 @@
-package com.example.kotlin_test
+package kotlin_test
 
 /*
     클래스 선언시 기본값을 상속을 받지 못하게 되어 있다.
@@ -32,15 +32,15 @@ class SmartPhone : HandPhone(){
 }
 
 fun main(){
-    val p1=Phone()
-    val p2=HandPhone()
+    val p1= Phone()
+    val p2= HandPhone()
     p1.call()
 
     p2.call() //Phone 클래스로 부터 상속받은 메소드도 호출가능
     p2.mobileCall()
     p2.takePicture()
 
-    val p3=SmartPhone()
+    val p3= SmartPhone()
     p3.call()
     p3.mobileCall()
     p3.doInternet()

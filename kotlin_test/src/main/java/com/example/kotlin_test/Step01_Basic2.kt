@@ -1,4 +1,4 @@
-package com.example.kotlin_test
+package kotlin_test
 
 fun main(){
     var myName="김구라"

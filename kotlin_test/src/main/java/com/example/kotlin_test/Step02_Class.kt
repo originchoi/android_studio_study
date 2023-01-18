@@ -1,4 +1,4 @@
-package com.example.kotlin_test
+package kotlin_test
 
 //클래스 정의하기
 class MyCar
@@ -57,16 +57,16 @@ class Person2(var name: String)
 //var or val 을 생성자의 인자에 선언하면 전달받은 값이 자동으로 같은 이름의 필드가 만들어지고 값이 이어간다.
 fun main() {
     //클래스를 이용해서 객체생성 in java => new MyCar()
-    var c1=MyCar()
-    var c2=YourCar()
+    var c1= MyCar()
+    var c2= YourCar()
     c2.drive()
 
     AirPlane()
 
-    val p1=Person("김구라")
+    val p1= Person("김구라")
     println(p1.name)
 
-    val p2=Person2("해골")
+    val p2= Person2("해골")
     println(p2.name)
 }
 

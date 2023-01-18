@@ -1,4 +1,4 @@
-package com.example.kotlin_test
+package kotlin_test
 /*
     함수명 : sum
     함수에 전달하는 인자의 갯수 : 2개

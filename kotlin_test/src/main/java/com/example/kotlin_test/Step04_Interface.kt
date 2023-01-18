@@ -1,4 +1,4 @@
-package com.example.kotlin_test
+package kotlin_test
 
 interface Remocon{
     fun up()
@@ -8,7 +8,7 @@ interface Remocon{
     in java => implements Remocon
     in kotlin => : Remocon
  */
-class MyRemocon : Remocon{
+class MyRemocon : Remocon {
     override fun up() {
         println("무언가를 올려요!")
     }
@@ -19,7 +19,7 @@ class MyRemocon : Remocon{
 }
 
 fun main(){
-    val r1=MyRemocon()
+    val r1= MyRemocon()
     r1.up()
     r1.down()
     /*
@@ -49,7 +49,7 @@ fun main(){
            var r2 = object
 
      */
-    var r2 = object : Remocon{
+    var r2 = object : Remocon {
         override fun up() {
             println("무언가를 올려요")
         }

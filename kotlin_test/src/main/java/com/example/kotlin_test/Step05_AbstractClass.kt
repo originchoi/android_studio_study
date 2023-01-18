@@ -1,4 +1,4 @@
-package com.example.kotlin_test
+package kotlin_test
 
 // 추상 클래스
 abstract class Weapon{
@@ -15,7 +15,7 @@ class MyWeapon : Weapon(){
 }
 
 fun main(){
-    val w1=MyWeapon()
+    val w1= MyWeapon()
     w1.move()
     w1.attack()
 
@@ -33,7 +33,7 @@ fun main(){
     }
 
     //익명 클래스를 이용해서 추상클래스(Weapon) type 의 참조값 얻어내기
-    val w2 = object :Weapon(){
+    val w2 = object : Weapon(){
         override fun attack() {
             println("공중 공격을 해요")
         }
@@ -42,7 +42,7 @@ fun main(){
     w2.attack()
 
     // 다형성 확인
-    val a:MyWeapon =w1
-    val b:Weapon = w1
+    val a: MyWeapon =w1
+    val b: Weapon = w1
     val c:Any = w1 // java 에서 Object type 에 해당되는 type 이다.
 }

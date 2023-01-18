@@ -1,4 +1,4 @@
-package com.example.kotlin_test
+package kotlin_test
 
 fun main(){
     //수정 불가능한 Map

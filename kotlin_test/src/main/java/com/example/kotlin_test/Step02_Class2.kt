@@ -4,7 +4,7 @@ package com.example.kotlin_test
 data class Member(var num:Int, var name:String, var addr:String)
 
 fun main(){
-    val m1=Member(1, "김구라", "노량진")
+    val m1= Member(1, "김구라", "노량진")
 
     //data 클래스로 생성한 객체의 참조값을 출력해보면 객체에 저장된 내용을 보여준다.
     println(m1)
