@@ -13,6 +13,8 @@
       <module name="MyAndroid.step07fragment" target="11" />
       <module name="MyAndroid.step07fragment2" target="11" />
       <module name="MyAndroid.step08viewbinding" target="11" />
+      <module name="MyAndroid.step09customview" target="11" />
+      <module name="MyAndroid.step09gameview" target="11" />
     </bytecodeTargetLevel>
   </component>
 </project>
