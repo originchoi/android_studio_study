@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <bytecodeTargetLevel target="1.7">
-      <module name="MyAndroid.step01activity" target="11" />
-      <module name="MyAndroid.step01activity2" target="11" />
-      <module name="MyAndroid.step02layout" target="11" />
-      <module name="MyAndroid.step03view" target="11" />
-      <module name="MyAndroid.step04activitymove" target="11" />
-      <module name="MyAndroid.step05example" target="11" />
-      <module name="MyAndroid.step05listview" target="11" />
-      <module name="MyAndroid.step06customadapter" target="11" />
-      <module name="MyAndroid.step07fragment" target="11" />
-      <module name="MyAndroid.step07fragment2" target="11" />
-      <module name="MyAndroid.step08viewbinding" target="11" />
-      <module name="MyAndroid.step09customview" target="11" />
-      <module name="MyAndroid.step09gameview" target="11" />
-    </bytecodeTargetLevel>
+    <bytecodeTargetLevel target="1.7" />
   </component>
 </project>
