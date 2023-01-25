@@ -25,7 +25,7 @@ class TodoAdapter(var context: Context, var layoutRes:Int, var list:List<Todo>) 
     }
     //인자로 전달된 position 에 해당하는 아이템의 아이디 리턴하기
     override fun getItemId(position: Int): Long {
-        return list.get(position).num as Long //Int type 을 Long type 으로 casting 해서 리턴
+        return list.get(position).num.toLong() //Int type 을 Long type 으로 casting 해서 리턴
 
     }
     //인자로 전달된 cell view 를 리턴하는 메소드
