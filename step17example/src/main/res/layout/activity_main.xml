@@ -27,5 +27,4 @@
             android:id="@+id/addBtn"/>
     </LinearLayout>
 
-
 </LinearLayout>
